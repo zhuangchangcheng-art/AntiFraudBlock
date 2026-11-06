@@ -1,0 +1,32 @@
+# AntiFraudBlock v1 (2026-11-03) - anti-fraud reporting block only
+# Localhost entries preserved (do not remove).
+127.0.0.1 localhost
+::1 localhost
+::1 ip6-loopback
+::1 ip6-localhost
+# --- Anti-fraud reporting destinations (null-routed) ---
+# Names taken from the user's own AGH anti-fraud rules. A hosts entry is
+# exact-match only (no wildcards), so every verified name is listed.
+# Unlisted subdomains are still caught by the iptables IP block layer.
+0.0.0.0 fzpt.cn
+:: fzpt.cn
+0.0.0.0 www.fzpt.cn
+:: www.fzpt.cn
+0.0.0.0 gjfzpt.cn
+:: gjfzpt.cn
+0.0.0.0 www.gjfzpt.cn
+:: www.gjfzpt.cn
+0.0.0.0 chanct.cn
+:: chanct.cn
+0.0.0.0 fzapp.chanct.cn
+:: fzapp.chanct.cn
+0.0.0.0 fzapph5.chanct.cn
+:: fzapph5.chanct.cn
+0.0.0.0 frappe.chanct.cn
+:: frappe.chanct.cn
+0.0.0.0 oss.chanct.cn
+:: oss.chanct.cn
+0.0.0.0 sz.gafz.chanct.cn
+:: sz.gafz.chanct.cn
+0.0.0.0 tingfeng.chanct.cn
+:: tingfeng.chanct.cn
