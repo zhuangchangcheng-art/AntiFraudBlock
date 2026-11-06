@@ -1,4 +1,4 @@
-# AntiFraudBlock IP block list v1 (2026-11-03)
+# AntiFraudBlock IP block list v2 (2026-11-06)
 # One IPv4 per line. '#' comments and blank lines are ignored.
 #
 # Tier 1: verified 2026-11-03 via DoH (dns.google) from the domains
@@ -225,3 +225,9 @@
 42.202.155.215
 59.63.226.86
 120.76.141.58
+#
+# Tier 3: dm.wo.com.cn (Unicom SystemHelper DM), resolved 2026-11-06
+# via DoH (dns.google). CNAME to icloudv6 GSLB, may rotate; the hosts
+# layer is the primary block for this name, this IP is a snapshot.
+#   dm.wo.com.cn -> 123.6.81.33
+123.6.81.33

@@ -1,6 +1,6 @@
 id=AntiFraudBlock
 name=防反诈上报拦截
-version=20261103-v1
-versionCode=2026110301
+version=20261106-v2
+versionCode=2026110601
 author=奶龙自制（拦截思路参考 BaiLai7513/anti-fraud-ads）
-description=只做一件事：阻止本机接入国家反诈上报（fzpt.cn / gjfzpt.cn / chanct.cn 及国家平台 IP）。hosts 空解析 + iptables REJECT 双层拦截，不碰通用 DNS、不装 DNS 代理、不动任何 App 组件。KSU Hot Install，免重启；卸载即干净恢复。
+description=只做一件事：阻止本机接入国家反诈上报（fzpt.cn / gjfzpt.cn / chanct.cn 及国家平台 IP）与联通 SystemHelper 设备管理上报（dm.wo.com.cn）。hosts 空解析 + iptables REJECT 双层拦截，不碰通用 DNS、不装 DNS 代理、不动任何 App 组件。KSU Hot Install，免重启；卸载即干净恢复。

@@ -1,4 +1,4 @@
-# AntiFraudBlock v1 (2026-11-03) - anti-fraud reporting block only
+# AntiFraudBlock v2 (2026-11-06) - anti-fraud reporting + Unicom SystemHelper DM block
 # Localhost entries preserved (do not remove).
 127.0.0.1 localhost
 ::1 localhost
@@ -30,3 +30,9 @@
 :: sz.gafz.chanct.cn
 0.0.0.0 tingfeng.chanct.cn
 :: tingfeng.chanct.cn
+# --- Unicom SystemHelper DM endpoint (null-routed) ---
+# dm.wo.com.cn: China Unicom device-management server used by the
+# preinstalled com.mobiletools.systemhelper component (app list, usage
+# stats, device IDs). Separate pipeline from the anti-fraud platform.
+0.0.0.0 dm.wo.com.cn
+:: dm.wo.com.cn
